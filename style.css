@@ -18,13 +18,22 @@ body{
 
 .nav-link{
     color: white;
+	font-weight: bold;
+}
+.nav-link:hover{
+    color: black;
+	font-weight: bold;
+    text-decoration:underline;
+}
+
+p.hover-sample:hover{
+	color: black;
 }
 
 .circle1{
     background-image: url(images/qiita.png);
     width:  23px;
     height: 23px;
-    /* border-radius: 50%; */
     background-size: 26px 26px;
 }
 
@@ -35,10 +44,6 @@ body{
     height: 23px;
 }
 
-/* div{
-    color:black;
-    background-color:whitesmoke
-    }   
 
 
 
