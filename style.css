@@ -113,3 +113,8 @@ p.hover-sample:hover{
     font-size: xx-small;
 }
 
+@media screen and (max-width: 480px) {
+    .iframe{
+        max-width: 100%; !important;
+    }
+}
