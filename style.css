@@ -12,6 +12,20 @@ header{
     height: 330px;
 }
 
+@media screen and (max-width: 480px) {
+    header{
+        font-family: "Noto Sans JP", sans-serif, "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic";
+        background-image: url("images/soccer_ground_crop.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color:rgba(255,255,255, 0.1);
+        background-blend-mode:lighten;
+        background-size: cover;
+        width: 100%;
+        height: 330px;
+    }
+}
+
 
 body{
     font-family: "Noto Sans JP", sans-serif, "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic";
@@ -45,27 +59,34 @@ p.hover-sample:hover{
 	color: black;
 }
 
-.circle1{
-    background-image: url(images/qiita.png);
-    width:  23px;
-    height: 23px;
-    background-size: 26px 26px;
+.icon {
+    width: 26px;
+    height: 26px;
 }
 
-.circle2{
-    background-image: url(images/Atcoder_logo.png);
-    background-size: 24px 24px;
-    width:  23px;
-    height: 23px;
+.icon_qiita {
+    width: 26px;
+    height: 26px;
+    border-radius: 30px;
 }
 
 .section{
     font-size: small;
 }
+@media screen and (max-width: 480px) {
+    .section{
+        font-size:xx-small;
+    }
+}
 
 .inner{
     padding: 0px 120px;
+}
 
+@media screen and (max-width: 480px) {
+    .inner{
+        padding: 0px 12px;    
+    }
 }
 
 .color0 {
